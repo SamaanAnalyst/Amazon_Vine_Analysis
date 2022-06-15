@@ -61,8 +61,22 @@ to pick reviews that are more likely helpful and avoid division by zero errors l
 
 ## Results
 
-1. The Extract, Transform, and Load process -performed on the Amazon electronics reviews dataset has resulted in four populated tables in the electronic-reviews database:
+1. The Extract, Transform, and Load process -performed on the Amazon electronics reviews dataset has resulted in four populated tables in the RDS database:
+- Customers table: <br> 
 
+     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/customers_table.png" width=25% height=25% align="center">
+
+- Products table: <br>
+
+     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/products_table.png" width=50% height=50% align="center">
+
+- Review ID table: <br>
+
+     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/review_id_table.png" width=45% height=45% align="center">
+
+- Vine table: <br>
+
+     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/vine_table.png" width=45% height=45% align="center">
 
 2. We compared the Amazon reviews for electronics products that were submitted by independent customers who were not compensated by the Amazon Vine program for their reviews, <br>
 with the reviews of the Vine program members, and we found that: <br> 
@@ -77,11 +91,11 @@ with the reviews of the Vine program members, and we found that: <br>
 ## Conclusions and Limitations
 
 Based on the results of the Amazon electronics reviews, we can conclude that:
-- In general, independent and unpaid product reviews on Amazon are more prevalent and tend to be more frequently favorable than sponsored reviews, with a 5-star distribution of 46.39% and 42.04%, respectively.
-- Sponsoring reviews is a top-rated marketing strategy to advertise products; however, in the specific case of electronics, the paid reviews were more reserved in their evaluation than their unpaid counterparts.
+- In general, independent and unpaid product reviews on Amazon are more frequently favorable than sponsored reviews, 
+- Sponsoring reviews is a top-rated marketing strategy to advertise products; however, in the specific case of electronics, the paid reviews were more reserved in their evaluation than their unpaid counterparts with a 5-star distribution of 42.04% and 46.39%, respectively.
 - Based on this analysis, we do not recommend investing in the Vine program for incentivized reviewing services as it did not prove more valuable than random feedback. 
-- There are limitations to this dataset regarding reviews' text and sales values. Further analysis is recommended to investigate the impact of reviews on sales and 
-possibly building a machine learning model to help predict the positive language used in paid reviews that could better influence the sales of a product. 
+- There are limitations to this dataset regarding reviews' text availability and sales revenue. 
+- Further analysis is recommended to investigate the impact of reviews on sales and possibly building a machine learning model to better understand and predict the syntax of positive language used to influence the sales of a product. 
 
 
 ---
