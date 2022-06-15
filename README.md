@@ -68,7 +68,7 @@ to pick reviews that are more likely helpful and avoid division by zero errors l
 
 - Products table: <br>
 
-     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/products_table.png" width=50% height=50% align="center">
+     <img src="https://github.com/Magzzie/Amazon_Vine_Analysis/blob/branch1/Images/products_table.png" width=55% height=55% align="center">
 
 - Review ID table: <br>
 
@@ -91,11 +91,10 @@ with the reviews of the Vine program members, and we found that: <br>
 ## Conclusions and Limitations
 
 Based on the results of the Amazon electronics reviews, we can conclude that:
-- In general, independent and unpaid product reviews on Amazon are more frequently favorable than sponsored reviews, 
+- In general, independent and unpaid product reviews on Amazon are more frequently favorable than incentivized reviews. 
 - Sponsoring reviews is a top-rated marketing strategy to advertise products; however, in the specific case of electronics, the paid reviews were more reserved in their evaluation than their unpaid counterparts with a 5-star distribution of 42.04% and 46.39%, respectively.
 - Based on this analysis, we do not recommend investing in the Vine program for incentivized reviewing services as it did not prove more valuable than random feedback. 
-- There are limitations to this dataset regarding reviews' text availability and sales revenue. 
-- Further analysis is recommended to investigate the impact of reviews on sales and possibly building a machine learning model to better understand and predict the syntax of positive language used to influence the sales of a product. 
+- There are limitations to this dataset regarding reviews' text availability and sales revenue. Thus, further analysis is recommended to investigate the impact of reviews on sales and possibly building a machine learning model to better understand and predict the syntax of positive language used to influence the sales of a product. 
 
 
 ---
